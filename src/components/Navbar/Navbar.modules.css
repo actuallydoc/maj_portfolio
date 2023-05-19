@@ -1,0 +1,9 @@
+.logo {
+
+    position: absolute;
+    width: 75px;
+    height: 54px;
+    left: 0px;
+    top: 7px;
+    background: url(../../../public/logo.png);
+}
