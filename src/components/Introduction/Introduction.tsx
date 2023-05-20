@@ -1,7 +1,13 @@
 import React from 'react'
 import TechIcons from './TechIcons'
+import Image from 'next/image'
 
 export default function Introduction() {
+    const handleGithubClick = () => {
+
+        window.open('https://github.com/actuallydoc');
+
+    }
     return (
         <div>
             <div className='flex'>
@@ -26,6 +32,18 @@ export default function Introduction() {
                         <TechIcons />
                     </div>
                     <div>
+                        <div onClick={handleGithubClick} className='button-github space-x-5'>
+                            <div>
+                                <p>My Github</p>
+                            </div>
+                            <div>
+                                <Image src={'/github.svg'} width={30} height={30} alt='github icon' />
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className='hire-me-text'>
+                        <p>Im currently looking for a job & mentorship in the summer</p>
                     </div>
                 </div>
                 <div>
@@ -33,6 +51,6 @@ export default function Introduction() {
 
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

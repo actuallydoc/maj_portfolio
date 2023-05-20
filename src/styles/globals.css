@@ -33,7 +33,7 @@
     left: calc(50% - 255px/2 - 0.5px);
     top: 250px;
 
-    font-family: 'Poppins';
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 29px;
@@ -42,13 +42,32 @@
     color: #000000;
 
 
-
-
 }
 
+.introduction-text {
+    background-image: linear-gradient(to right, black, black);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 0% 1px;
+    animation: pulse-animation 4s infinite ease-in-out;
+}
+
+@keyframes pulse-animation {
+    0% {
+        background-size: 0% 1px;
+    }
+
+    50% {
+        background-size: 100% 1px;
+    }
+
+    100% {
+        background-size: 0% 1px;
+    }
+}
+
+
 .my-specialty {
-    /* Self Taught Full Stack Web Developer & Coding Enthusiast */
-    /* Self Taught Full Stack Web Developer & Coding Enthusiast */
 
     position: absolute;
     width: 1201px;
@@ -130,4 +149,131 @@
     100% {
         transform: translateY(0);
     }
+}
+
+.hire-me-text {
+    /* Im currently looking for a job & mentorship in the summer */
+
+    position: absolute;
+    width: 684px;
+    height: 285px;
+    left: 620px;
+    top: 863px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 112px;
+    /* or 249% */
+
+    color: #000000;
+
+
+}
+
+.button-github {
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 48px;
+
+    position: absolute;
+    width: 297px;
+    height: 85px;
+    left: 800px;
+    top: 729px;
+
+    background: #B8A7A7;
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07),
+        0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198),
+        0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275),
+        0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035),
+        0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725),
+        0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    border-radius: 100px;
+    /* H6 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 112px;
+    /* identical to box height, or 533% */
+
+    color: #000000;
+
+
+
+
+
+
+
+}
+
+.button-github:hover {
+
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer-spacer {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 1127px;
+    border: 1px solid #000000;
+    transform: rotate(180deg);
+
+}
+
+.footer-madeby {
+    /* Made by Maj with */
+
+    position: absolute;
+    width: 176px;
+    height: 30px;
+    left: 55px;
+    top: 1447px;
+
+    /* Paragraph */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    /* identical to box height, or 143% */
+
+}
+
+.heart-emoji {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 240px;
+    top: 1453px;
+}
+
+.made-with {
+    /* Designed with Figma, React, NextJS */
+
+    position: absolute;
+    width: 360px;
+    height: 30px;
+    left: 1520px;
+    top: 1454px;
+
+    /* Paragraph */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    /* identical to box height, or 143% */
+
+    color: #000000;
+
+
 }

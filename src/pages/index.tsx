@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer/Footer";
 import Introduction from "@/components/Introduction/Introduction";
 import Navbar from "@/components/Navbar/Navbar";
 import { type NextPage } from "next";
@@ -17,6 +18,12 @@ const Home: NextPage = () => {
         </div>
         <div className="">
           <Introduction />
+        </div>
+        <div>
+          <div className='footer-spacer'></div>
+        </div>
+        <div>
+          <Footer />
         </div>
       </main>
     </>

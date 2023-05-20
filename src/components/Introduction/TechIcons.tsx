@@ -1,6 +1,11 @@
 import React from 'react'
-
+import Image from 'next/image'
 export default function TechIcons() {
+    const handleGithubClick = () => {
+
+        window.open('https://github.com/actuallydoc');
+
+    }
     return (
         <div>
             {/*Box for the tech icon's*/}
@@ -80,7 +85,6 @@ export default function TechIcons() {
                     </defs>
                 </svg>
             </div>
-
         </div>
     )
 }
