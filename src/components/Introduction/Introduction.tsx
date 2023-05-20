@@ -1,4 +1,5 @@
 import React from 'react'
+import TechIcons from './TechIcons'
 
 export default function Introduction() {
     return (
@@ -21,7 +22,9 @@ export default function Introduction() {
                             and make a positive impact through my dedication to coding.
                         </div>
                     </div>
-
+                    <div className=''>
+                        <TechIcons />
+                    </div>
                     <div>
                     </div>
                 </div>
