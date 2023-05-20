@@ -1,3 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@700&family=Roboto:wght@100&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.email-font {
+    font-family: 'Poppins', sans-serif;
+    /* actuallydoc@gmail.com */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #393939;
+
+
+}
+
+.introduction-text {
+    /* Hey there, i’m Maj */
+
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    left: calc(50% - 255px/2 - 0.5px);
+    top: 250px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 60px;
+    /* identical to box height, or 207% */
+    color: #000000;
+
+
+
+
+}
+
+.my-specialty {
+    /* Self Taught Full Stack Web Developer & Coding Enthusiast */
+    /* Self Taught Full Stack Web Developer & Coding Enthusiast */
+
+    position: absolute;
+    width: 1201px;
+    height: 182px;
+    left: 410px;
+    top: 310px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 60px;
+    line-height: 60px;
+    /* or 100% */
+    color: #000000;
+
+
+
+}
+
+.bottom_part {
+    /* & Coding Enthusiast */
+
+    position: absolute;
+    width: 1201px;
+    height: 182px;
+    left: 670px;
+    top: 380px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    /* or 100% */
+
+    color: #000000;
+
+}
+
+.about-me {
+    width: 777px;
+    height: 88px;
+
+    /* Paragraph */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    /* or 143% */
+
+    color: #393939;
+
+    position: absolute;
+    left: 590px;
+    top: 450px;
+
+
+}
