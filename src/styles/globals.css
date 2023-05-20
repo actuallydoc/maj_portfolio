@@ -5,9 +5,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.navbar {
+    z-index: 100;
+    position: sticky;
+}
+
 .nav-text {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    height: 60px;
 }
 
 .email-font {
@@ -276,4 +282,122 @@
     color: #000000;
 
 
+}
+
+.about-footer {
+    /* About */
+
+    position: absolute;
+    width: 94px;
+    height: 112px;
+    left: 214px;
+    top: 1148px;
+
+    /* H5 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 112px;
+    /* identical to box height, or 373% */
+
+    color: #000000;
+
+
+}
+
+.about-footer-text {
+    /* I'm a 19-year-old software developer from Slovenia, and I'm thrilled to share my passion for coding and programming with you. */
+
+    position: absolute;
+    width: 431px;
+    height: 120px;
+    left: 71px;
+    top: 1237px;
+
+    /* Paragraph */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    /* or 143% */
+
+    color: #000000;
+
+
+}
+
+.si-flag {
+    /* image 20 */
+
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 269px;
+    top: 1450px;
+
+
+}
+
+.get-in-touch {
+    /* Get in touch with me */
+
+    position: absolute;
+    width: 328px;
+    height: 73px;
+    left: 790px;
+    top: 1148px;
+
+    /* H5 */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 112px;
+    /* or 373% */
+
+    color: #000000;
+
+
+}
+
+.discord-footer {
+    /* github 1 */
+
+    position: absolute;
+    width: 32px;
+    height: 34px;
+    left: 870px;
+    top: 1252px;
+
+
+}
+
+.github-footer {
+    /* image 19 */
+
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 910px;
+    top: 1250px;
+
+
+}
+
+.linkedin-footer {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 990px;
+    top: 1250px;
+}
+
+.twitter-footer {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    left: 950px;
+    top: 1255px;
 }

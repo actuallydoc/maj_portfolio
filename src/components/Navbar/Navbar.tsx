@@ -12,19 +12,23 @@ const NavTabs: NavType[] = [
 const NavEmail = "actuallydoc@gmail.com"
 
 //Get the icon's
+const handleScroll = () => {
+  const section = document.getElementById('aboutme');
+  section?.scrollIntoView({ behavior: 'smooth' });
+}
 
 export default function Navbar() {
   return (
-    <div className=''>
+    <div className='navbar'>
       <div className='flex text-black'>
         <div className='flex'>
           <div>
             <Image className='image' src={'/logo.png'} width={150} height={150} alt='test' />
           </div>
-          <div className='flex grid-cols-4 nav-text space-x-10 content-center pt-6'>
+          <div className='flex grid-cols-2 w-auto nav-text space-x-20 content-center pt-6 bg'>
             {NavTabs.map((value, index) => (
-              <div key={index} className='text-2xl'>
-                <a>{value}</a>
+              <div key={index} className='text-2xl hover:translate-x-5 duration-150 cursor-pointer'>
+                <a onClick={handleScroll} className='p-2'>{value}</a>
               </div>
             ))}
 
@@ -33,7 +37,7 @@ export default function Navbar() {
         {/* Icons part */}
         <div className='flex ml-auto justify center content-center items-center'>
           <div className='text-[21px] text-[#393939] email-font'>
-            <a>{NavEmail}</a>
+            <a href='mailto:actuallydoc@gmail.com'>{NavEmail}</a>
           </div>
           <div className='mr-3'>
             <NavIcons />
