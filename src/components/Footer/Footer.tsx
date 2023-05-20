@@ -80,6 +80,9 @@ export default function Footer() {
                     </svg>
 
                 </div>
+                {/* Only for testing */}
+                {/* <iframe className='discord-widget' src="https://discord.com/widget?id=391955728945905664&theme=dark" width="350" height="200" allowTransparency={true} frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> */}
+
             </div>
 
             <div>

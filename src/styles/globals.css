@@ -178,6 +178,14 @@
 
 }
 
+.discord-widget {
+    position: absolute;
+    width: 360px;
+    height: 150px;
+    left: 1450px;
+    top: 1224px;
+}
+
 .button-github {
 
     /* Auto layout */

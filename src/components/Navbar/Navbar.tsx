@@ -11,7 +11,7 @@ const NavTabs: NavType[] = [
 
 const NavEmail = "actuallydoc@gmail.com"
 
-//Get the icon's
+//Handle scrolling to the about me section (really cool. never did that before xd.)
 const handleScroll = () => {
   const section = document.getElementById('aboutme');
   section?.scrollIntoView({ behavior: 'smooth' });
@@ -31,7 +31,6 @@ export default function Navbar() {
                 <a onClick={handleScroll} className='p-2'>{value}</a>
               </div>
             ))}
-
           </div>
         </div>
         {/* Icons part */}
