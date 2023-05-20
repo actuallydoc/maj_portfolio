@@ -41,10 +41,10 @@ export default function Footer() {
                 </div>
 
             </div>
-            <div className='about-footer' id='aboutme'>
+            <div className='about-footer'>
                 About
             </div>
-            <div className='about-footer-text'>
+            <div className='about-footer-text' id='aboutme'>
                 I&apos;m a 19-year-old software developer from Slovenia, and I&apos;m thrilled to share my passion for coding and programming with you.
             </div>
             <div className='get-in-touch'>
